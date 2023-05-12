@@ -11,7 +11,7 @@ function products (products){
                 <img src="${product.image}" alt="${product.name}">
             </div>
             <div class="product__content">
-            <button type="button" class="product__btn add--to-cart data-id=${product.id}">
+            <button type="button" class="product__btn add--to--cart" data-id="${product.id}">
                 <i class='bx bxs-cart-add'></i>
             </button>
             <span class="product__price">$${product.price}</span>

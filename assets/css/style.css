@@ -280,6 +280,11 @@ button {
     visibility: hidden;
     transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
 }
+
+.show--notify {
+    opacity: 1;
+    visibility: visible;
+}
 /* Show menu */
 .show--menu {
     bottom: var(--header-height);
